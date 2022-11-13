@@ -1,0 +1,33 @@
+.card__button{
+    width: 98%;
+    border: none;
+    padding: 15px;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    font-size: 1.6rem ;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    border-radius: 5px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.card__button:hover{
+    background-color:var(--active-cyan);
+    cursor: pointer;
+}
+
+.card__button::before{
+    content:'';
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    background: url(../../images/icon-cart.svg);
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
