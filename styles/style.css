@@ -4,12 +4,14 @@
 
 /*import do card*/
 @import url('./card/card.css');
-@import url('./card/card-preview.css');
+@import url('./card/card-description.css');
+@import url('./card/card-button.css');
 
 
 /*Váriaveis*/
 :root{
     --dark-cyan: hsl(158, 36%, 37%);
+    --active-cyan: hsl(158, 36%, 32%);
     --cream: hsl(30, 38%, 92%);
 
     --very-dark-blue: hsl(212, 21%, 14%);
